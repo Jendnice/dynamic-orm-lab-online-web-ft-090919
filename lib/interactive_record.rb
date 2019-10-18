@@ -20,7 +20,8 @@ class InteractiveRecord
     column_names.compact
   end 
   
-  def initialize 
+  def initialize(options = {})
+    options.each do self.send
   end 
   
 end
